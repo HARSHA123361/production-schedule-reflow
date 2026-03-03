@@ -1,0 +1,1 @@
+{"version":3,"file":"constraint-checker.d.ts","sourceRoot":"","sources":["../../src/reflow/constraint-checker.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,WAAW,EAGZ,MAAM,SAAS,CAAC;AAGjB,UAAU,mBAAmB;IAC3B,IAAI,EAAE,YAAY,GAAG,oBAAoB,GAAG,OAAO,GAAG,aAAa,CAAC;IACpE,OAAO,EAAE,MAAM,CAAC;IAChB,WAAW,CAAC,EAAE,MAAM,CAAC;CACtB;AAuFD,wBAAgB,gBAAgB,CAAC,KAAK,EAAE,WAAW,GAAG,mBAAmB,EAAE,CAY1E"}

@@ -1,0 +1,29 @@
+{
+  "name": "production-schedule-reflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/run-scenarios.ts",
+    "scenario:delay-cascade": "ts-node src/run-scenarios.ts delay-cascade",
+    "scenario:shift-maintenance": "ts-node src/run-scenarios.ts shift-maintenance",
+    "scenario:all": "ts-node src/run-scenarios.ts all",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^25.3.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
